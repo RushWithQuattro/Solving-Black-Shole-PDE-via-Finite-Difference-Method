@@ -66,8 +66,6 @@ Plug in the above terms to the Black_Schole PDE, then for each time step we can 
 We solve the above equation using LU decompsition at each time step. 
 
 
-
-
 ###**Stability and Rate of Convergence**
 
 One concern about finite difference method is that some incorrectly chosen parameters(in this case, $σ,r,δt$) might cause the algorithm to be unstable(i.e fail to converge to a finite solution). The main source of this problem lies at the coefficient matrix ( A, D and B). For implicit method, it is stable if the infinite norm of $B^{-1} <=1$; for Crank Nicolson method, it is stable if the infinite norm of $C^{-1}D <=1$. Luckily, these conditions are true for any $σ,r,δt$ used for the above methods. However, for other methods like the explicit method, stability is not guaranteed. This is why in this project we mainly focus on the above two methods. 
