@@ -27,7 +27,7 @@ In the case of the American options, it has the same pay-off function as its eur
 
 Then, we can show that the American option has the following dynamics,
 
-> $ min(-\frac{∂C}{∂t}-rS_t\frac{∂C}{∂t}-\frac{1}{2}\frac{∂^2C}{∂^2S}S_tσ^2-rC, C-w(S-K))=0$
+> $min(-\frac{∂C}{∂t}-rS_t\frac{∂C}{∂t}-\frac{1}{2}\frac{∂^2C}{∂^2S}S_tσ^2-rC, C-w(S-K))=0$
 
 A Bermuda option is smilar to american option in the way that they both allow excercise before the contract maturity. The difference is that bermuda option can only be excercised at a fixed set of date before maturity. 
 
